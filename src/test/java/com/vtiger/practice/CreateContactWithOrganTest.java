@@ -53,12 +53,6 @@ public static void main(String[] args) throws IOException {
 		
 		String organization_name = msExcelLibrary.getDataFromExcel("CreateOrganizationTest", 1, 1)+randomNumber;
 		
-		
-		
-		/*FileInputStream fisExcel=new FileInputStream("./src/test/resources/ex.xlsx");
-		Workbook wb=WorkbookFactory.create(fisExcel);
-		String Contact_name=wb.getSheet("CreateContactTest").getRow(1).getCell(1).getStringCellValue()+randomNumber;*/
-
 
 switch (browser) {
 case "chrome":

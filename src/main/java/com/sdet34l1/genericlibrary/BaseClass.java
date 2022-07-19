@@ -70,14 +70,14 @@ public class BaseClass {
 		
 	 webDriverLibrary=new WebDriverLibrary();
 		javautil=new JavaLibrary();
-		//String url = propertyFileLibrary.getdataFromPropertyFile("url");
-		//un = propertyFileLibrary.getdataFromPropertyFile("UN");
-		//pwd = propertyFileLibrary.getdataFromPropertyFile("PWD");
+		String url = propertyFileLibrary.getdataFromPropertyFile("url");
+		un = propertyFileLibrary.getdataFromPropertyFile("UN");
+		pwd = propertyFileLibrary.getdataFromPropertyFile("PWD");
 		String browser = propertyFileLibrary.getdataFromPropertyFile("Browser");
 		String timeout = propertyFileLibrary.getdataFromPropertyFile("timeout");		
 		longtime = javautil.stringToLong(timeout);	
 		randomNumber=javautil.getRandomNumber(1000);
-		String url = System.getProperty("URL");
+		//String url = System.getProperty("URL");
 		String un = System.getProperty("UN");
 		String pwd = System.getProperty("PWD");
 		

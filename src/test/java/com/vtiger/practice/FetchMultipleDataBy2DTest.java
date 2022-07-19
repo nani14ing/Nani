@@ -20,8 +20,9 @@ public static void main(String[] args) throws EncryptedDocumentException, IOExce
     	for(int j=0; j<sh.getRow(i).getLastCellNum(); j++)
     	{
     		arr[i][j]=sh.getRow(i).getCell(j).getStringCellValue();
+    		System.out.println(arr[i][j]);
     	}
     }
-    System.out.println(arr[2][1]);
+    
 }
 }
