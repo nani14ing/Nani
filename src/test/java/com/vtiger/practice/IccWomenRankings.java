@@ -24,6 +24,7 @@ public class IccWomenRankings {
 		
 		Actions act=new Actions(driver);
 		act.moveToElement(ranking).perform();
+		Thread.sleep(2000);
 		driver.findElement(By.xpath("//a[@href='/rankings/womens/team-rankings']")).click();
 		Thread.sleep(2000);
 		driver.quit();
